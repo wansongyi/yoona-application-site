@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoona Li</title>
+<meta name="description" content="Yoona Li — AI, data science, behavioral research, and product.">
+<style>
+:root{
+  --bg:#f6f4ef;
+  --paper:#fbfaf7;
+  --ink:#17191b;
+  --muted:#6d7378;
+  --line:#d9d6cf;
+  --accent:#405669;
+  --soft:#ebe7df;
+  --max:1160px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+a:hover{opacity:.68}
+img{display:block;max-width:100%}
+.wrap{width:min(var(--max),calc(100% - 52px));margin:0 auto}
+
+/* NAV */
+header{
+  border-bottom:1px solid var(--line);
+}
+.nav{
+  min-height:70px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:30px;
+}
+.wordmark{
+  font-family:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  font-size:24px;
+  letter-spacing:-.03em;
+}
+.navlinks{
+  display:flex;
+  gap:26px;
+  font-size:13px;
+  color:#4e5357;
+}
+
+/* HERO */
+.hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.2fr) 360px;
+  gap:70px;
+  padding:88px 0 94px;
+  align-items:end;
+}
+.eyebrow{
+  margin-bottom:20px;
+  color:var(--accent);
+  font-size:12px;
+  font-weight:650;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.hero h1{
+  margin:0 0 28px;
+  font-family:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  font-size:clamp(64px,8vw,108px);
+  line-height:.92;
+  font-weight:500;
+  letter-spacing:-.06em;
+}
+.hero .lead{
+  max-width:680px;
+  margin:0 0 18px;
+  font-size:23px;
+  line-height:1.42;
+  letter-spacing:-.025em;
+}
+.hero .bio{
+  max-width:690px;
+  margin:0;
+  color:var(--muted);
+  font-size:16px;
+  line-height:1.8;
+}
+.hero-actions{
+  display:flex;
+  gap:18px;
+  margin-top:30px;
+  font-size:13px;
+}
+.hero-actions a{
+  padding-bottom:4px;
+  border-bottom:1px solid currentColor;
+}
+.portrait-wrap{
+  position:relative;
+}
+.portrait{
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:center top;
+  border:1px solid var(--line);
+  background:#e5e2db;
+}
+.photo-caption{
+  margin-top:10px;
+  color:#85898c;
+  font-size:11px;
+  text-align:right;
+}
+
+/* SECTIONS */
+.section{
+  border-top:1px solid var(--line);
+  padding:58px 0 70px;
+}
+.section-head{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:36px;
+  margin-bottom:30px;
+}
+.section-no{
+  color:#9ba0a4;
+  font-size:12px;
+  letter-spacing:.12em;
+}
+.section-title{
+  margin:0;
+  font-family:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  font-size:38px;
+  font-weight:500;
+  letter-spacing:-.035em;
+}
+.section-intro{
+  grid-column:2;
+  max-width:720px;
+  margin:-10px 0 0;
+  color:var(--muted);
+  line-height:1.75;
+  font-size:15px;
+}
+
+/* FEATURED */
+.feature-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.feature{
+  background:var(--paper);
+  border:1px solid var(--line);
+  min-height:270px;
+  padding:26px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.feature-top{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  color:#8a8e91;
+  font-size:11px;
+}
+.feature h3{
+  margin:38px 0 10px;
+  font-family:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  font-size:28px;
+  font-weight:500;
+  letter-spacing:-.035em;
+}
+.feature p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.7;
+  font-size:14px;
+}
+.feature-meta{
+  margin-top:18px;
+  color:var(--accent);
+  font-size:12px;
+  font-weight:600;
+}
+
+/* LIST */
+.list{
+  display:grid;
+}
+.list-row{
+  display:grid;
+  grid-template-columns:165px 1fr;
+  gap:34px;
+  padding:23px 0;
+  border-top:1px solid var(--line);
+}
+.list-row:first-child{border-top:0}
+.when{
+  color:#8a8f93;
+  font-size:12px;
+  padding-top:4px;
+}
+.list-row h3{
+  margin:0 0 4px;
+  font-size:17px;
+  font-weight:650;
+  letter-spacing:-.015em;
+}
+.role{
+  color:var(--accent);
+  font-size:13px;
+  margin-bottom:9px;
+}
+.list-row p{
+  margin:0;
+  max-width:780px;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.7;
+}
+
+/* EDUCATION / TOOLKIT */
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.edu{
+  border-top:2px solid var(--ink);
+  padding-top:18px;
+}
+.edu h3{
+  margin:0 0 8px;
+  font-family:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  font-size:25px;
+  font-weight:500;
+  letter-spacing:-.025em;
+}
+.edu p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.65;
+}
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  max-width:850px;
+}
+.skill{
+  padding:8px 11px;
+  background:var(--paper);
+  border:1px solid var(--line);
+  font-size:12px;
+  color:#555b60;
+}
+
+/* FOOTER */
+footer{
+  border-top:1px solid var(--line);
+  padding:34px 0 48px;
+}
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  color:#7b8083;
+  font-size:12px;
+}
+
+@media(max-width:820px){
+  .wrap{width:min(var(--max),calc(100% - 30px))}
+  .hero{grid-template-columns:1fr;gap:42px;padding:58px 0 64px}
+  .portrait-wrap{max-width:330px}
+  .feature-grid,.two-col{grid-template-columns:1fr}
+  .section-head{grid-template-columns:70px 1fr;gap:18px}
+  .list-row{grid-template-columns:1fr;gap:8px}
+  .navlinks{gap:14px;overflow:auto}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="wordmark" href="#top">Yoona Li</a>
+    <nav class="navlinks">
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="assets/Yoona_Li_Resume.pdf" target="_blank">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div>
+      <div class="eyebrow">AI · Data · Research · Product</div>
+      <h1>Yoona Li</h1>
+      <p class="lead">
+        I build and study intelligent systems with a focus on how they interact with people.
+      </p>
+      <p class="bio">
+        I am a Master of Applied Science in Computer Science student at the University of Pennsylvania.
+        My work spans machine learning, LLM systems, behavioral research, and product experimentation —
+        from grounded conversational AI to recommendation systems and human-centered evaluation.
+      </p>
+      <div class="hero-actions">
+        <a href="mailto:yoonali@engineering.upenn.edu">Email</a>
+        <a href="https://github.com/wansongyi" target="_blank">GitHub</a>
+        <a href="assets/Yoona_Li_Resume.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+
+    <div class="portrait-wrap">
+      <img class="portrait" src="https://wansongyi.github.io/images/photo.jpg" alt="Yoona Li">
+      <div class="photo-caption">Philadelphia, 2026</div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-no">01 / WORK</div>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-intro">
+          A few projects that best represent how I think across technical systems,
+          user behavior, and product design.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <div>
+            <div class="feature-top"><span>2026 — Present</span><span>AI / Product</span></div>
+            <h3>Lumi AI</h3>
+            <p>
+              A stateful RAG-based conversational learning system connecting teacher-defined
+              objectives and uploaded knowledge to child-facing interaction, with retrieval-aware
+              abstention, configurable knowledge boundaries, parent-facing evidence, and real-time voice.
+            </p>
+          </div>
+          <div class="feature-meta">Founder &amp; Technical Product Lead</div>
+        </article>
+
+        <article class="feature">
+          <div>
+            <div class="feature-top"><span>2025</span><span>ML / Behavioral Data</span></div>
+            <h3>FashionVote</h3>
+            <p>
+              An AI-driven fashion analytics platform using DeepFashion imagery and crowdsourced
+              pairwise voting, with Random Forest models achieving 90%+ accuracy in trend classification.
+            </p>
+          </div>
+          <div class="feature-meta">Founder &amp; Research Lead</div>
+        </article>
+
+        <article class="feature">
+          <div>
+            <div class="feature-top"><span>2025</span><span>LLMs / Research</span></div>
+            <h3>Quantized LLM Adaptation</h3>
+            <p>
+              A unified parameter-efficient adaptation framework integrating LoRA, LoRA+, and QLoRA
+              for 4-bit quantized decoder-only language models with reproducible PyTorch benchmarking.
+            </p>
+          </div>
+          <div class="feature-meta">First Author · IJNSEI</div>
+        </article>
+
+        <article class="feature">
+          <div>
+            <div class="feature-top"><span>2023 — Present</span><span>Education / Entrepreneurship</span></div>
+            <h3>HaoXue AI Learning Center</h3>
+            <p>
+              Founded and scaled an offline AI-powered learning and enrichment center serving 500+ students,
+              leading program design, growth, and parent engagement.
+            </p>
+          </div>
+          <div class="feature-meta">Founder</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-no">02 / RESEARCH</div>
+        <h2 class="section-title">Research experience</h2>
+      </div>
+
+      <div class="list">
+        <div class="list-row">
+          <div class="when">2026 — Present</div>
+          <div>
+            <h3>The Wharton School</h3>
+            <div class="role">Research Assistant · Prof. Jonah Berger</div>
+            <p>
+              Developed reproducible behavioral-data annotation frameworks for curiosity and information-gap research,
+              including calibrated labeling schemas, decision rules, edge-case taxonomies, and adjudication logic.
+            </p>
+          </div>
+        </div>
+
+        <div class="list-row">
+          <div class="when">2025 — 2026</div>
+          <div>
+            <h3>NYU School of Global Public Health</h3>
+            <div class="role">Biostatistics Research Assistant</div>
+            <p>
+              Designed child/family feedback surveys and structured mixed-type clinical variables
+              for small-N pediatric psychological evaluation research.
+            </p>
+          </div>
+        </div>
+
+        <div class="list-row">
+          <div class="when">2025 — 2026</div>
+          <div>
+            <h3>Public Health Backlash Lab · NYU GPH</h3>
+            <div class="role">Research Assistant</div>
+            <p>
+              Integrated quantitative trends with qualitative evidence across a cross-institutional team,
+              using coding and analytic memoing to study communication, policy response, community reaction, and public trust.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-no">03 / EXPERIENCE</div>
+        <h2 class="section-title">Technical experience</h2>
+      </div>
+
+      <div class="list">
+        <div class="list-row">
+          <div class="when">Summer 2026</div>
+          <div>
+            <h3>ByteDance (TikTok)</h3>
+            <div class="role">AI Product Manager Intern · Search Ads</div>
+            <p>
+              Designed and evaluated query-similarity routing and dynamic-threshold strategies across recall,
+              ad load, and auction quality, contributing more than $145K in incremental revenue while preserving
+              organic-search relevance. Also prototyped an LLM-powered Q&amp;A advertising experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="list-row">
+          <div class="when">Summer 2025</div>
+          <div>
+            <h3>ThunderSoft</h3>
+            <div class="role">Algorithm Intern</div>
+            <p>
+              Built a 100K+ sample annotation/QC pipeline for a Xiaomi mobile-AI project,
+              then fine-tuned PyTorch models and ran reproducible latency/accuracy benchmarks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-no">04 / EDUCATION</div>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="edu">
+          <h3>University of Pennsylvania</h3>
+          <p>Master of Applied Science in Computer Science (MAS-CS)<br>Expected May 2028</p>
+        </div>
+        <div class="edu">
+          <h3>New York University</h3>
+          <p>Bachelor of Economics &amp; Statistics<br>May 2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-no">05 / TOOLKIT</div>
+        <h2 class="section-title">Technical toolkit</h2>
+      </div>
+
+      <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">SQL</span>
+        <span class="skill">R</span>
+        <span class="skill">PyTorch</span>
+        <span class="skill">scikit-learn</span>
+        <span class="skill">XGBoost</span>
+        <span class="skill">RAG</span>
+        <span class="skill">LLM Evaluation</span>
+        <span class="skill">LoRA / QLoRA</span>
+        <span class="skill">SHAP / LIME</span>
+        <span class="skill">Experiment Design</span>
+        <span class="skill">Behavioral Data</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 Yoona Li</span>
+    <span>Philadelphia, PA</span>
+  </div>
+</footer>
+
+</body>
+</html>

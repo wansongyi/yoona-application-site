@@ -1,10 +1,10 @@
-# Yoona Li — Application Website
+# Yoona Li Portfolio v2
 
-Independent application-focused personal website.
+Application portfolio with:
+- LinkedIn / GitHub / Email / Resume links
+- project evidence and metrics
+- Lumi AI Live Demo
+- case-study pages
+- Quantized LLM paper PDF
 
-This repository is intentionally separate from `wansongyi.github.io` so the existing site remains untouched.
-
-## GitHub Pages
-After pushing this repository to GitHub, enable Pages from `main` / root.
-
-The current portrait is loaded from the existing public personal site. It can later be copied into this repository as `images/photo.jpg` for full independence.
+For GitHub Pages, upload the CONTENTS of this folder to the repository root and deploy `main` / `(root)`.

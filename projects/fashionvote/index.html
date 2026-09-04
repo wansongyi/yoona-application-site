@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FashionVote case study by Yoona Li"><title>FashionVote | Yoona Li</title>
+<style>
+:root{--bg:#f6f4ef;--panel:#fbfaf7;--ink:#17191b;--muted:#667078;--line:#d9d6cf;--accent:#405669;--soft:#eee9e1;--max:1080px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}a:hover{opacity:.72}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(246,244,239,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{height:66px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:500 23px Georgia,serif}.navlinks{display:flex;gap:18px;font-size:12px;color:#626a70}
+.hero{padding:64px 0 32px;border-bottom:1px solid var(--line)}.crumb{font-size:11px;color:#8b9296;margin-bottom:17px}.eyebrow{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font:500 clamp(46px,7vw,76px)/.98 Georgia,serif;letter-spacing:-.045em;margin:12px 0 16px}.lead{font-size:19px;max-width:820px;line-height:1.58;margin:0;color:#394148}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chip{background:var(--soft);border-radius:999px;padding:7px 10px;font-size:10px;font-weight:700;color:var(--accent)}
+.ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.btn{display:inline-flex;padding:10px 14px;border-radius:999px;border:1px solid var(--line);font-size:12px;font-weight:750;background:var(--panel)}
+.btn.primary{background:var(--ink);color:white;border-color:var(--ink)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 265px;gap:28px;padding:34px 0 70px}
+article{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:30px}
+section.block{padding:0 0 28px;margin:0 0 28px;border-bottom:1px solid var(--line)}section.block:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+h2{font:500 29px Georgia,serif;letter-spacing:-.03em;margin:0 0 12px}h3{font-size:15px;margin:20px 0 7px}
+p,li{font-size:14px;color:#59636a}ul{padding-left:20px;margin:10px 0}.callout{background:var(--soft);border-left:3px solid var(--accent);padding:15px 16px;border-radius:12px;font-size:13px;color:#53616a}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}.kpi{padding:14px;border:1px solid var(--line);border-radius:13px;background:#f8f6f1}.kpi strong{display:block;font-size:18px;color:var(--accent)}.kpi span{font-size:10px;color:#82898e}
+.flow{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.node{padding:9px 10px;border:1px solid var(--line);border-radius:9px;background:#f8f6f1;font-size:11px}.arrow{align-self:center;color:#999}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.panel{padding:16px;border:1px solid var(--line);border-radius:14px;background:#f8f6f1}.panel h3{margin-top:0}.panel p{font-size:12px}
+figure{margin:18px 0 0}figure img{width:100%;border:1px solid var(--line);border-radius:14px;background:white}figcaption{font-size:10px;color:#858d92;margin-top:7px}
+aside{display:grid;gap:12px;align-content:start}.side{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px}.side h4{margin:0 0 9px;font-size:9px;letter-spacing:.11em;text-transform:uppercase;color:#92999d}.side p,.side a{font-size:12px;line-height:1.7;color:#55616a}.side a{display:block;font-weight:750;color:var(--accent);margin-top:6px}
+footer{border-top:1px solid var(--line);padding:22px 0 38px;font-size:10px;color:#8c9499;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.compare,.kpis{grid-template-columns:1fr}.navlinks a:nth-child(2),.navlinks a:nth-child(3){display:none}}
+</style></head><body>
+<header><div class="wrap"><nav><a class="brand" href="../../index.html">Yoona Li</a><div class="navlinks"><a href="../index.html">Projects</a><a href="../../index.html#research">Research</a><a href="../../index.html#experience">Experience</a><a href="https://www.linkedin.com/in/yoona-l-3b94a5281" target="_blank" rel="noopener">LinkedIn</a></div></nav></div></header>
+<main class="wrap">
+<section class="hero">
+<div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Projects</a> / FashionVote</div>
+<div class="eyebrow">Applied ML · Behavioral Data · 2025</div><h1>FashionVote</h1><p class="lead">A fashion analytics platform combining visual data and pairwise user preference signals for trend and recommendation research.</p>
+<div class="meta"><span class="chip">Founder &amp; Research Lead</span><span class="chip">10K+ users analyzed</span><span class="chip">90%+ classification</span></div>
+<div class="ctas"><a class="btn primary" href="https://fashionvote-demo.onrender.com" target="_blank" rel="noopener">Open Live Demo ↗</a><a class="btn" href="../../index.html#work">Back to Featured Work</a></div>
+</section>
+<div class="layout"><article>
+<section class="block"><h2>Overview</h2>
+<p>FashionVote combines fashion imagery with explicit pairwise preference behavior. I built the product and research workflow to study trend signals and user-level preferences rather than treating image classification alone as the product.</p>
+<div class="kpis"><div class="kpi"><strong>10K+</strong><span>users analyzed</span></div><div class="kpi"><strong>90%+</strong><span>trend-classification accuracy</span></div><div class="kpi"><strong>Pairwise</strong><span>behavioral preference signal</span></div></div>
+</section>
+
+<section class="block"><h2>The question</h2>
+<p>Can direct user choices provide a useful behavioral signal for fashion analytics, and how far can we responsibly interpret those signals when the data are sparse or biased?</p></section>
+
+<section class="block"><h2>Approach</h2>
+<ul>
+<li>Used DeepFashion-related imagery and curated image pairs for preference comparison.</li>
+<li>Built a Flask voting interface to collect pairwise choices.</li>
+<li>Analyzed behavioral signals alongside visual features.</li>
+<li>Trained classification models, including Random Forest experiments, for trend analysis.</li>
+<li>Recovered and sanitized the original demo with ResNet34 inference and local fashion-image assets.</li>
+</ul></section>
+
+<section class="block"><h2>Results and limits</h2>
+<p>Project experiments reached 90%+ trend-classification accuracy and analyzed preference behavior across 10K+ users. The more important finding was methodological: aggregate accuracy did not eliminate sampling bias, sparse labels, or uneven user coverage.</p>
+<div class="callout">I narrowed the interpretation toward defensible trend and recommendation signals rather than claiming that one aggregate metric proved broad personalization quality.</div>
+</section>
+
+<section class="block"><h2>Recovered public demo</h2>
+<p>The current demo is a sanitized portfolio deployment of the recovered product experience. It preserves pairwise voting and model-backed interactions while removing the old database, insecure credentials, and production-only dependencies.</p>
+<div class="ctas"><a class="btn primary" href="https://fashionvote-demo.onrender.com" target="_blank" rel="noopener">Open Live Demo ↗</a></div>
+</section>
+</article><aside>
+<div class="side"><h4>Role</h4><p>Founder & Research Lead</p></div>
+<div class="side"><h4>Stack</h4><p>Python · Flask · DeepFashion · Random Forest · ResNet34</p></div>
+<div class="side"><h4>Research lens</h4><p>Behavioral data · sampling bias · label sparsity · defensible interpretation</p></div>
+<div class="side"><h4>Links</h4><a href="https://fashionvote-demo.onrender.com" target="_blank" rel="noopener">Live Demo ↗</a><a href="../../index.html#work">Featured Work →</a></div>
+</aside></div>
+</main>
+<div class="wrap"><footer><span>© 2026 Yoona Li</span><span><a href="mailto:yoonali@engineering.upenn.edu">Email</a> · <a href="https://github.com/wansongyi" target="_blank" rel="noopener">GitHub</a></span></footer></div>
+</body></html>

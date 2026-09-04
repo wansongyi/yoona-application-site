@@ -1,10 +1,10 @@
-# Yoona Li Portfolio v2
+# Yoona Li — Application Portfolio
 
-Application portfolio with:
-- LinkedIn / GitHub / Email / Resume links
-- project evidence and metrics
-- Lumi AI Live Demo
-- case-study pages
-- Quantized LLM paper PDF
+Application-focused personal portfolio.
 
-For GitHub Pages, upload the CONTENTS of this folder to the repository root and deploy `main` / `(root)`.
+Featured work:
+- Lumi AI interactive demo: https://portfolio-demo.lumi-ai-32v.pages.dev/
+- FashionVote live demo: https://fashionvote-demo.onrender.com
+- Quantized LLM research paper included under `assets/`.
+
+GitHub Pages should deploy from `main` / root.

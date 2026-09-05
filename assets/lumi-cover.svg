@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Lumi AI product workflow preview</title>
+  <desc id="desc">A polished static collage showing teacher setup, a grounded student conversation, and evidence-linked parent progress.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0eafd"/>
+      <stop offset="0.52" stop-color="#f9f6ff"/>
+      <stop offset="1" stop-color="#e9eff3"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7556ea"/><stop offset="1" stop-color="#a250ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#34285c" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <circle cx="1100" cy="74" r="180" fill="#dfd3ff" opacity=".45"/>
+  <circle cx="80" cy="730" r="210" fill="#dce9ee" opacity=".62"/>
+  <g transform="translate(64 54)">
+    <rect width="42" height="42" rx="14" fill="url(#purple)"/>
+    <path d="M21 9l3.7 7.7L33 20.4l-8.3 3.7L21 33l-3.7-8.9L9 20.4l8.3-3.7L21 9Z" fill="#fff"/>
+    <text x="58" y="31" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="750" fill="#332653">Lumi AI</text>
+  </g>
+  <text x="64" y="146" font-family="Georgia,serif" font-size="54" fill="#17152b">Grounded learning,</text>
+  <text x="64" y="204" font-family="Georgia,serif" font-size="54" fill="#17152b">in one clear loop.</text>
+  <text x="68" y="244" font-family="Inter,Arial,sans-serif" font-size="17" fill="#6d6880">Teacher intent → bounded practice → interpretable evidence</text>
+  <g filter="url(#shadow)">
+    <g transform="translate(64 292)">
+      <rect width="330" height="360" rx="24" fill="#fff"/>
+      <rect width="330" height="58" rx="24" fill="#f8f4ff"/>
+      <rect y="34" width="330" height="24" fill="#f8f4ff"/>
+      <circle cx="28" cy="29" r="8" fill="#7657e8"/><text x="48" y="35" font-family="Inter,Arial" font-size="15" font-weight="700" fill="#352d4d">Teacher workspace</text>
+      <text x="25" y="96" font-family="Inter,Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#8e879c">LEARNING GOAL</text>
+      <rect x="25" y="111" width="280" height="48" rx="11" fill="#f6f3fa"/>
+      <text x="40" y="141" font-family="Inter,Arial" font-size="13" fill="#514c5e">Explain how plants use sunlight</text>
+      <text x="25" y="192" font-family="Inter,Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#8e879c">KNOWLEDGE SOURCE</text>
+      <rect x="25" y="207" width="280" height="72" rx="12" fill="#ecfbf4" stroke="#ccefe0"/>
+      <circle cx="48" cy="243" r="14" fill="#46b983"/><path d="M42 243l4 4 8-9" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="72" y="239" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#315a49">Plants unit · 5 pages</text>
+      <text x="72" y="258" font-family="Inter,Arial" font-size="11" fill="#648071">Ready for grounded retrieval</text>
+      <rect x="25" y="305" width="184" height="34" rx="17" fill="#17152b"/>
+      <text x="53" y="327" font-family="Inter,Arial" font-size="12" font-weight="700" fill="#fff">Publish learning guide</text>
+    </g>
+    <g transform="translate(430 248)">
+      <rect width="374" height="428" rx="28" fill="#fff"/>
+      <rect width="374" height="66" rx="28" fill="url(#purple)"/>
+      <rect y="38" width="374" height="28" fill="url(#purple)"/>
+      <circle cx="31" cy="32" r="13" fill="#fff" opacity=".22"/><path d="M31 23l2.2 5.3 5.5 2.2-5.5 2.2L31 38l-2.2-5.3-5.5-2.2 5.5-2.2L31 23Z" fill="#fff"/>
+      <text x="56" y="38" font-family="Inter,Arial" font-size="16" font-weight="700" fill="#fff">Student practice</text>
+      <text x="26" y="104" font-family="Georgia,serif" font-size="22" fill="#28213b">Why do plants need roots?</text>
+      <rect x="26" y="128" width="296" height="65" rx="15" fill="#fff5cf"/>
+      <text x="43" y="154" font-family="Inter,Arial" font-size="12" font-weight="700" fill="#655b31">Lumi hint</text>
+      <text x="43" y="175" font-family="Inter,Arial" font-size="12" fill="#6f6745">Think about what roots collect from soil.</text>
+      <rect x="66" y="215" width="282" height="57" rx="15" fill="#eee9ff"/>
+      <text x="83" y="250" font-family="Inter,Arial" font-size="12" fill="#51446c">They take in water and help the plant stand.</text>
+      <rect x="26" y="294" width="322" height="90" rx="16" fill="#e9faf3" stroke="#c7eadb"/>
+      <text x="43" y="321" font-family="Inter,Arial" font-size="12" font-weight="700" fill="#376954">Grounded response</text>
+      <text x="43" y="344" font-family="Inter,Arial" font-size="12" fill="#517466">Exactly — roots absorb water and anchor</text>
+      <text x="43" y="363" font-family="Inter,Arial" font-size="12" fill="#517466">the plant. That matches our class source.</text>
+    </g>
+    <g transform="translate(840 310)">
+      <rect width="296" height="330" rx="24" fill="#fff"/>
+      <rect width="296" height="58" rx="24" fill="#fff1f8"/>
+      <rect y="34" width="296" height="24" fill="#fff1f8"/>
+      <circle cx="29" cy="29" r="8" fill="#f255a1"/><text x="48" y="35" font-family="Inter,Arial" font-size="15" font-weight="700" fill="#4d3041">Evidence view</text>
+      <text x="24" y="96" font-family="Inter,Arial" font-size="11" font-weight="700" letter-spacing="1.4" fill="#938490">OBSERVED PRACTICE</text>
+      <text x="24" y="142" font-family="Georgia,serif" font-size="42" fill="#2d2934">8</text><text x="55" y="142" font-family="Inter,Arial" font-size="13" fill="#756e78">retrieval attempts</text>
+      <rect x="24" y="166" width="248" height="10" rx="5" fill="#eee9ef"/><rect x="24" y="166" width="183" height="10" rx="5" fill="#f255a1"/>
+      <rect x="24" y="202" width="248" height="82" rx="14" fill="#f5f8f8"/>
+      <text x="40" y="230" font-family="Inter,Arial" font-size="11" font-weight="700" fill="#405669">Evidence-linked signal</text>
+      <text x="40" y="251" font-family="Inter,Arial" font-size="11" fill="#66747a">Uses the class source reliably;</text>
+      <text x="40" y="269" font-family="Inter,Arial" font-size="11" fill="#66747a">mastery is not inferred yet.</text>
+      <text x="24" y="311" font-family="Inter,Arial" font-size="10" font-weight="700" fill="#9a8e97">SAMPLE DATA · CLEARLY LABELED</text>
+    </g>
+  </g>
+</svg>

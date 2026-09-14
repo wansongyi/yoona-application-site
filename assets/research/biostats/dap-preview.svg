@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Data Analysis Plan abstract preview</title><desc id="desc">A portfolio-safe diagram of a study analysis workflow with no participant data.</desc>
+  <rect width="720" height="400" rx="28" fill="#f0ece4"/>
+  <text x="44" y="52" fill="#405669" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">DATA ANALYSIS PLAN</text>
+  <text x="44" y="78" fill="#7d858b" font-family="Arial,sans-serif" font-size="11">Portfolio-safe derived preview · no participant data</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="44" y="118" width="142" height="116" rx="14" fill="#fbfaf7" stroke="#d9d6cf"/><text x="62" y="148" fill="#8b6b56" font-size="10" font-weight="700">01 · MEASUREMENT</text><text x="62" y="179" fill="#29343b" font-size="17" font-weight="700">Reliability</text><text x="62" y="205" fill="#697279" font-size="12">CSQ-8 · outcomes</text>
+    <path d="M196 176h34" stroke="#405669" stroke-width="2"/><path d="m224 170 8 6-8 6" fill="none" stroke="#405669" stroke-width="2"/>
+    <rect x="242" y="118" width="142" height="116" rx="14" fill="#fbfaf7" stroke="#d9d6cf"/><text x="260" y="148" fill="#8b6b56" font-size="10" font-weight="700">02 · DESCRIPTION</text><text x="260" y="179" fill="#29343b" font-size="17" font-weight="700">Patterns</text><text x="260" y="205" fill="#697279" font-size="12">Summary · missingness</text>
+    <path d="M394 176h34" stroke="#405669" stroke-width="2"/><path d="m422 170 8 6-8 6" fill="none" stroke="#405669" stroke-width="2"/>
+    <rect x="440" y="118" width="142" height="116" rx="14" fill="#fbfaf7" stroke="#d9d6cf"/><text x="458" y="148" fill="#8b6b56" font-size="10" font-weight="700">03 · MODELING</text><text x="458" y="179" fill="#29343b" font-size="17" font-weight="700">Associations</text><text x="458" y="205" fill="#697279" font-size="12">Covariates · regression</text>
+    <rect x="44" y="272" width="538" height="74" rx="14" fill="#405669"/><text x="65" y="303" fill="#fff" font-size="12" font-weight="700" letter-spacing="1">SENSITIVITY &amp; INTERPRETATION</text><text x="65" y="328" fill="#dfe7ea" font-size="12">Placement stability · missing-data strategy · program outcomes</text>
+    <circle cx="634" cy="309" r="38" fill="#e6ebee"/><path d="M616 309h36M634 291v36" stroke="#405669" stroke-width="2"/>
+  </g>
+</svg>

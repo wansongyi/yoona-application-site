@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Dataset Assessment preview</title><desc id="desc">A portfolio-safe checklist illustrating structural dataset assessment.</desc>
+  <rect width="720" height="400" rx="28" fill="#f0ece4"/>
+  <text x="44" y="52" fill="#405669" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">DATASET ASSESSMENT</text>
+  <text x="44" y="78" fill="#7d858b" font-family="Arial,sans-serif" font-size="11">Derived checklist · no internal notes or row-level records</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="44" y="112" width="632" height="232" rx="18" fill="#fbfaf7" stroke="#d9d6cf"/>
+    <g transform="translate(68 137)"><circle cx="12" cy="12" r="12" fill="#405669"/><path d="m6 12 4 4 8-9" fill="none" stroke="#fff" stroke-width="2"/><text x="38" y="17" fill="#29343b" font-size="14" font-weight="700">Structure</text><text x="172" y="17" fill="#707980" font-size="12">unit of observation · schema</text></g>
+    <path d="M68 181h584" stroke="#e3e0da"/>
+    <g transform="translate(68 198)"><circle cx="12" cy="12" r="12" fill="#405669"/><path d="m6 12 4 4 8-9" fill="none" stroke="#fff" stroke-width="2"/><text x="38" y="17" fill="#29343b" font-size="14" font-weight="700">Coverage</text><text x="172" y="17" fill="#707980" font-size="12">geography · time · completeness</text></g>
+    <path d="M68 242h584" stroke="#e3e0da"/>
+    <g transform="translate(68 259)"><circle cx="12" cy="12" r="12" fill="#8b6b56"/><path d="m6 12 4 4 8-9" fill="none" stroke="#fff" stroke-width="2"/><text x="38" y="17" fill="#29343b" font-size="14" font-weight="700">Identifiers</text><text x="172" y="17" fill="#707980" font-size="12">state codes · dates · join keys</text></g>
+    <path d="M68 303h584" stroke="#e3e0da"/>
+    <text x="68" y="329" fill="#405669" font-size="10" font-weight="700" letter-spacing="1">INTEGRATION READINESS</text><rect x="242" y="318" width="382" height="8" rx="4" fill="#e2e7e8"/><rect x="242" y="318" width="276" height="8" rx="4" fill="#405669"/>
+  </g>
+</svg>
